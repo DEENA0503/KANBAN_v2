@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KANBAN</title>
+    </head>
+    <body>
+        <p> Dear {{ data["name"] }},</p>
+        <p><b>Here is your monthly report.</b></p>
+        <p>You have total {{data["total_tasks"]}} tasks in your dashboard, out of which {{ data["total_cards_comp"]}} are completed before deadline.</p>
+        <p>Last month you added {{data["cards_created_last_month"]}} tasks.</p>
+        <p>Last month you completed {{data["task_comp_last_month"]}} tasks.</p>
+        <p>Last month you failed to complete {{data["failed_to_comp_last_month"]}} tasks on time.</p>
+        <p>You have {{data["cards_having_deadline_this_month"]}} upcoming deadlines this month.</p>
+        <p>Your least completed list is {{data["min_comp_l"]}}.</p>
+        <p>Last month you average days you required to complete your task was {{data["avg"]}}.</p>
+        <p>Keep using KANBAN.</p>
+        <br>
+        <p>Regards,</p>
+        <p>kanban@gmail.com</p>
+    </body>
+</html> 
