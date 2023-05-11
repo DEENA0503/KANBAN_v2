@@ -1,0 +1,24 @@
+nav {
+    background: linear-gradient(white, rgb(126, 122, 122));
+    /* overflow: hidden; */
+    /* float: left; */
+  /* display: block; */
+  /* overflow: hidden; */
+  /* position: fixed; */
+
+  }
+
+  .navbar-brand {
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  .flash {
+    color: #d10909;
+    /*border: #01010e;*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+
+
+  }
